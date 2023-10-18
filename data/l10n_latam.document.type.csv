@@ -1,0 +1,7 @@
+id,sequence,code,name,l10n_uy_letter,report_name,internal_type,doc_code_prefix,country_id/id
+dc_et,10,101,eTicket,eT,FACTURA,invoice,eTicket,base.uy
+dc_ncet,20,102,Nota de crédito de eTicket,NCeT,NOTA DE CREDITO,credit_note,NCeTicket,base.uy
+dc_ndet,30,103,Nota de débito de eTicket,NDeT,NOTA DE DEBITO,debit_note,NDeTicket,base.uy
+dc_ef,40,111,eFactura,eF,FACTURA,invoice,eFactura,base.uy
+dc_ncef,50,112,Nota de crédito de eFactura,NCeF,NOTA DE CREDITO,credit_note,NCeFactura,base.uy
+dc_ndef,50,113,Nota de débito de eFactura,NDeF,NOTA DE DEBITO,debit_note,NDeFactura,base.uy

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <function model="l10n_latam.identification.type" name="_update_identification_core_uy"/>
+    <data>
+        <record model='l10n_latam.identification.type' id='it_rut'>
+            <field name='name'>RUT</field>
+            <field name='description'>Registro Único Tributario</field>
+            <field name='country_id' ref='base.uy'/>
+            <field name='is_vat' eval='True'/>
+            <field name='l10n_uy_code'>2</field>
+            <field name='sequence'>10</field>
+        </record>
+        <record model='l10n_latam.identification.type' id='it_ci'>
+            <field name='name'>CI</field>
+            <field name='description'>Cédula de Identidad</field>
+            <field name='country_id' ref='base.uy'/>
+            <field name='is_vat' eval='True'/>
+            <field name='l10n_uy_code'>3</field>
+            <field name='sequence'>10</field>
+        </record>
+        <record model='l10n_latam.identification.type' id='it_otros'>
+            <field name='name'>Otros</field>
+            <field name='description'>Otros</field>
+            <field name='country_id' ref='base.uy'/>
+            <field name='is_vat' eval='True'/>
+            <field name='l10n_uy_code'>4</field>
+            <field name='sequence'>10</field>
+        </record>
+        <record model='l10n_latam.identification.type' id='it_dni'>
+            <field name='name'>DNI</field>
+            <field name='description'>Documento Nacional de Identidad</field>
+            <field name='country_id' ref='base.uy'/>
+            <field name='is_vat' eval='True'/>
+            <field name='l10n_uy_code'>6</field>
+            <field name='sequence'>10</field>
+        </record>
+        <record model='l10n_latam.identification.type' id='it_nife'>
+            <field name='name'>NIFE</field>
+            <field name='description'>Número de Identificación Fiscal Extranjera</field>
+            <field name='country_id' ref='base.uy'/>
+            <field name='is_vat' eval='True'/>
+            <field name='l10n_uy_code'>7</field>
+            <field name='sequence'>10</field>
+        </record>
+    </data>
+</odoo>
