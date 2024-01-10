@@ -2,7 +2,7 @@
 
 {
     'name': 'Localización Uruguay',
-    'version': '16.0',
+    'version': '15.0',
     'category': 'Localization',
     'description': """ Localización Uruguay. """,
     'author': 'Ivan Arriola - Autodidacta TI',
