@@ -58,4 +58,9 @@ class AccountMove(models.Model):
                 document_types = document_types.filtered(lambda x: x.internal_type not in ['credit_note'])
             if rec.debit_origin_id:
                 document_types = document_types.filtered(lambda x: x.internal_type == 'debit_note')
+                if len(document_types)>1:
+                    if(rec.debit_origin_id.l10n_latam_document_type_id.code == '101'):
+                        document_types = document_types.filtered(lambda x: x.code == '103')
+                    elif(rec.debit_origin_id.l10n_latam_document_type_id.code == '111'):
+                        document_types = document_types.filtered(lambda x: x.code == '113')
             rec.l10n_latam_document_type_id = document_types and document_types[0].id
